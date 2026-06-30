@@ -1,0 +1,17 @@
+# Vendored upstream sources, pinned to specific tags (verified against the
+# upstream GitHub API at the time this repo was built -- see README.md
+# "Toolchain & vendored sources" for the exact dates/commits).
+[submodule "Drivers/FreeRTOS-Kernel"]
+	path = Drivers/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+	branch = V11.3.0
+
+[submodule "Drivers/CMSIS-Device-F4"]
+	path = Drivers/CMSIS-Device-F4
+	url = https://github.com/STMicroelectronics/cmsis_device_f4.git
+	branch = v2.6.11
+
+[submodule "Drivers/CMSIS"]
+	path = Drivers/CMSIS
+	url = https://github.com/STMicroelectronics/cmsis_core.git
+	branch = v5.9.0
