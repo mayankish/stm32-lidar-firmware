@@ -1,0 +1,22 @@
+# build artifacts
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# editor / OS cruft
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OpenOCD / st-util logs
+*.log
+
+# Keep submodule directories tracked as gitlinks; do not ignore them, but
+# do ignore any stray build output that ends up inside a vendored tree.
+Drivers/**/build/
